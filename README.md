@@ -1,4 +1,4 @@
-**AI Lead Generation Scraper 🚀**  
+AI Lead Generation Scraper 🚀 
 
 📌 Overview
 This project is a **web scraping and AI-powered lead generation tool** that extracts, analyzes, and categorizes AI companies from multiple sources. It helps businesses identify **high-value leads** by automating data collection, performing sentiment analysis, and providing structured insights.  
@@ -10,19 +10,21 @@ This project is a **web scraping and AI-powered lead generation tool** that extr
 ✔ Visualization** – Generate **word clouds** and **bar charts** for insights.  
 ✔ Export Options** – Save the processed data in **CSV format** for CRM integration.  
 
-🛠 Tech Stack
+### **🛠 Tech Stack**  
 - Python (Requests, BeautifulSoup, Selenium)  
 - Pandas & NumPy (Data Processing)  
-- TextBlob** (Sentiment Analysis)  
-- Matplotlib & Seaborn (Data Visualization)  
+- TextBlob (Sentiment Analysis)  
+- Matplotlib & Seaborn** (Data Visualization)  
 
-📂 Project Structure 
+📂 Project Structure
+```
 ├── data/                  # Raw and cleaned datasets  
 ├── notebooks/             # Jupyter notebooks for analysis  
 ├── src/                   # Source code for web scraping & analysis  
 ├── README.md              # Project documentation  
 ├── requirements.txt       # Dependencies  
 ├── AI_Companies_Final.csv # Final processed dataset  
+```
 
 📌 How to Use
 1️⃣ Clone the repository:  
@@ -43,10 +45,10 @@ python src/scraper.py
 📊 Results & Insights
 - Word Cloud -> highlighting common industry terms.  
 - Sentiment Distribution of AI companies.  
-- CSV export -> for easy integration with business tools.  
+- CSV export for easy integration with business tools.  
 
 🚀 Future Enhancements
-- CRM Integration** for direct lead management.  
+- CRM Integration for direct lead management.  
 - Competitor Analysis** by comparing AI companies.  
 - Advanced NLP Models** for better sentiment accuracy.  
 
